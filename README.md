@@ -9,9 +9,9 @@ The files in this repository were used to demonstrate the current ELK topolopy u
 
 Next, the Ansible playbooks directly following were tested and used to generate a live elk deployment on Azure. This approach can be used to either recreate the entire deployment pictured above or selected portions of the **filebeat-playbook.yml** file to install certain SW modules, such as Filebeat and Metricbeat in support of ELK monitoring.
 
-<<https://github.com/Laylaray1116/MS-Azure-Cloud-Project1.git/Ansible/elk.yml>.
+ <https://github.com/Laylaray1116/MS-Azure-Cloud-Project1/blob/main/Ansible/ELK.yml>
 
-<<https://github.com/Laylaray1116/MS-Azure-Cloud-Project1.git/Ansible/filebeat-playbook.yml>
+ <https://github.com/Laylaray1116/MS-Azure-Cloud-Project1/blob/main/Ansible/filebeat-playbook.yml>
 
 This READme.md document contains the following details: - Description of the Topology - Access Policies - ELK Configuration - Beats in Use - Machines Being Monitored - How to Use the Ansible Build
 ***
