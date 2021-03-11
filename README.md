@@ -3,17 +3,17 @@
 ***
 **Automated ELK Stack Deployment using DVWA**
 
-The files in this repository were used to demonstrate the current ELK topolopy using MS Azure IaaS and PaaS and DVWA. The diagram below provides the ELK virtual design including its network scheme and applied security access controls in support of this cloud environment.  
+The files in this repository are used to demonstrate the current ELK topology using MS Azure PaaS and DVWA. The diagram below provides the ELK virtual design including its network scheme and applies security access controls to support this cloud environment.  
 
  [My Network Diagram] <https://github.com/Laylaray1116/MS-Azure-Cloud-Project1/blob/main/Diagrams/Azure%20Cloud%20Computing%20Diagram_030921.png>
 
-Next, the Ansible playbooks directly following were tested and used to generate a live elk deployment on Azure. This approach can be used to either recreate the entire deployment pictured above or selected portions of the **filebeat-playbook.yml** file to install certain SW modules, such as Filebeat and Metricbeat in support of ELK monitoring.
+Next, the Ansible playbooks directly following were tested and used to generate a live elk deployment on Azure. The approach here can be used to either recreate the entire deployment pictured above or choose selected portions of the **filebeat-playbook.yml** file to install specific SW modules, such as Filebeat and Metricbeat--in support of ELK monitoring.
 
  <https://github.com/Laylaray1116/MS-Azure-Cloud-Project1/blob/main/Ansible/ELK.yml>
 
  <https://github.com/Laylaray1116/MS-Azure-Cloud-Project1/blob/main/Ansible/filebeat-playbook.yml>
 
-This READme.md document contains the following details: - Description of the Topology - Access Policies - ELK Configuration - Beats in Use - Machines Being Monitored - How to Use the Ansible Build
+This READme.md document contains the following details: - Description of the Topology - Access Policies - ELK Configuration - Beats in Use - Target Machines Being Monitored - How to Use the Ansible Build
 ***
 **Description of the Topology**
 
@@ -110,7 +110,7 @@ These Beats allow us to collect the following information from each machine:
   - for now we've enacting the system module allowing Metricbeat to collect server metrics regarding CPU performance, OS, Memory utilization and important network I/O realtime activity.
 
 ***
-**Try this yourself. Using the filebeat-playbook.yml playbook**
+**Try this yourself. Using the Ansible filebeat-playbook.yml playbook**
 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
