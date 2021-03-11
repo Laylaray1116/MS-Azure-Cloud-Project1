@@ -5,7 +5,7 @@
 
 The files in this repository are used to demonstrate the current ELK topology using MS Azure PaaS and DVWA. The diagram below provides the ELK virtual design including its network scheme and applies security access controls to support this cloud environment.  
 
- [My Network Diagram] <https://github.com/Laylaray1116/MS-Azure-Cloud-Project1/blob/main/Diagrams/Azure%20Cloud%20Computing%20Diagram_030921.png>
+ [My Network Diagram] https://github.com/Laylaray1116/MS-Azure-Cloud-Project1/blob/main/Diagrams/Azure%20Cloud%20Computing%20Diagram_031121.png
 
 Next, the Ansible playbooks directly following were tested and used to generate a live elk deployment on Azure. The approach here can be used to either recreate the entire deployment pictured above or choose selected portions of the **filebeat-playbook.yml** file to install specific SW modules, such as Filebeat and Metricbeat--in support of ELK monitoring.
 
