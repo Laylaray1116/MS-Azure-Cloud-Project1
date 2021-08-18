@@ -1,4 +1,4 @@
-# MS-Azure-Cloud-Project
+# Automated ELK Stack Project
 
 ***
 **Automated ELK Stack Deployment using DVWA**
