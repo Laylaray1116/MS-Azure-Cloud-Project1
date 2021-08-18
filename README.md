@@ -34,7 +34,7 @@ If you process credit cards, you need to comply with Payment Card Industry (PCI)
 
 In addition, by placing a jumpbox running Ansible to access/manage the current DVWA VM containers this serves critical support and executes 24/7 strong security access controls protecting the aforemention VMs from possible outside threats.
 
-Furthermore, integrating an ELK server allows internal sysadmins/users to easily monitor the DVWA VMs for changes to their respective network, apps, and system logs. Specifically in this deployment, ELK Beats, Filebeat and its partner Metribeat are monitoring and gathering server syslogs and metrics to ensure consistent environment availability and security.
+Furthermore, integrating an ELK server allows internal sysadmins/users to easily monitor the DVWA VMs for changes to their respective network, apps, and system logs. Specifically in this deployment, ELK Beats, Filebeat and its partner Metricbeat are monitoring and gathering server syslogs and metrics to ensure consistent environment availability and security.
 
 The MS Azure configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
 
