@@ -104,7 +104,7 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 
 - Filebeat
-  - Filebeat is gathering logs to provide
+  - Filebeat is gathering data logs. 
 
 - Metricbeat
   - for now we've enacting the system module allowing Metricbeat to collect server metrics regarding CPU performance, OS, Memory utilization and important network I/O realtime activity.
